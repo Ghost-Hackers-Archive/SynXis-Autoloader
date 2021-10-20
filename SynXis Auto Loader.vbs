@@ -1,12 +1,12 @@
 ' --- Code  Information ---
-  ' Code Owner:       Ghost
-  ' GitHub:           https://github.com/Ghostridr
+  ' Code Owner:       Ghost Codes
+    ' GitHub:           https://github.com/Ghostridr
   ' Version:          1.0.0
-  ' Creation Date:    October 19, 2021
+    ' Creation Date:    October 19, 2021
 '
 ' --- Designed for Information ---
   ' Platform:         SynXis
-  ' Where to Get:     https://www.sabrehospitality.com/
+    ' Where to Get:     https://www.sabrehospitality.com/
 '
 ' --- Companies Optimized For  ---
   ' Wynham Hotels
