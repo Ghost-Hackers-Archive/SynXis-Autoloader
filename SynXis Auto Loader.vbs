@@ -25,7 +25,7 @@
 ' Changes "WScript.Shell" to "x" and then opens the link that's hidden in the launch button of the site.
     ' This opens a new tab named "Untitled".
   Set x=CreateObject("WScript.Shell")
-    x.Run "https://whg.sabrehospitality.com/Loader/Loader.application?1=1&Lang=en-us"
+    x.Run "msedge https://whg.sabrehospitality.com/Loader/Loader.application?1=1&Lang=en-us"
 ' Moves cursor onto "Open" and presses it.
   WScript.Sleep 2000
     x.SendKeys "{LEFT}"
