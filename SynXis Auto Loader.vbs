@@ -10,7 +10,8 @@
 '
 ' --- Companies Optimized For  ---
   ' Wynham Hotels
-    ' Super 8 (El Dorado, Arkansas)
+    ' Super 8 
+     ' El Dorado, Arkansas
 '
 ' --- The Purpose ---         
   ' To automate the launching process for SynXis PM - making it easier for employee's to continue working.
@@ -22,22 +23,22 @@ WScript.Sleep 1000
 Set x=CreateObject("WScript.Shell")
     x.Run "https://whg.sabrehospitality.com/Loader/Loader.application?1=1&Lang=en-us"
 
-WScript.Sleep 2000																		
+WScript.Sleep 2000
     x.SendKeys "{LEFT}"
 
 WScript.Sleep 500
     x.SendKeys "{ENTER}"
 
-WScript.Sleep 2000																		
-    CreateObject("WScript.Shell").Run "TaskKill /F /IM msedge.exe"
+WScript.Sleep 2000
+    x.Run "TaskKill /F /IM msedge.exe"
 
-WScript.Sleep 1000
+WScript.Sleep 1500
     x.AppActivate "Application Run - Security Warning"
 
 WScript.Sleep 500
     x.SendKeys "%R"
 
-WScript.Sleep 12000
+WScript.Sleep 15000
     x.SendKeys "12654"
 
 WScript.Sleep 500
