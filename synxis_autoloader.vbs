@@ -1,7 +1,7 @@
 ' --- Code  Information ---
   ' Code Owner:       Ghost Hackers
     ' GitHub:         [Ghost Hackers](https://github.com/Ghost-Hackers)
-  ' Version:          2.0.0
+  ' Version:          1.1.0
     ' Creation Date:  October 19, 2021
     ' Last Updated:   February 01, 2024
 ' --- Designed for Information ---
